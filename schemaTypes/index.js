@@ -16,6 +16,9 @@ import retailerSection from './retailerForm';
 import farmerSection from './farmerSection';
 import { cropVariety, cropCategory } from './cropData';
 import disclaimerSection from './disclaimer';
+import customer from './customer';
+import whatsappTemplate from './whatsappTemplate';
+import whatsappMessage from './whatsappMessage';
 
 
 
@@ -43,6 +46,9 @@ export const schemaTypes = [
   cropVariety,
   cropCategory,
   disclaimerSection,
+  customer,
+  whatsappTemplate,
+  whatsappMessage,
   // seedPoint,
   // footerSections,
 

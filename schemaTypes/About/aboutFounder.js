@@ -4,6 +4,16 @@ export default {
   type: 'document',
   title: 'AboutUsFounderSection',
   fields: [
+     {
+      name: 'mainImage',
+      title: 'Founder Image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+      description: 'The main image displayed on the card.',
+      validation: (Rule) => Rule.required(),
+    },
     {
       name: 'item1',
       type: 'localeString',

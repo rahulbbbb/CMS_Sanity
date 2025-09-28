@@ -44,6 +44,12 @@ export default {
               description: 'e.g., bg-agri-green-medium, bg-agri-orange-harvest',
             },
             {
+              name: 'bgColorClass',
+              title: 'BG Color Class',
+              type: 'string',
+              description: 'e.g., bg-agri-green-medium, bg-agri-orange-harvest',
+            },
+            {
               name: 'iconColorClass',
               title: 'Icon Color Class',
               type: 'string',
